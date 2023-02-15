@@ -1,6 +1,7 @@
 PRICE_UC = 5
 # ------------ Configs ------------
 ADMINS = [6170357621]
+CHANNEL = [-1001551015352, -1001448625936]
 # BOT_TOKEN="6132848983:AAGh-2YcxbUQM__fl8pSfpUwNdSGa3F223o"
 BOT_LINK = "https://t.me/nimadurbbot"
 BOT_TOKEN = "5929525767:AAEJ8xL4UKm1PnnBONf6A7d7Qe6-QJEvq_8"
@@ -13,7 +14,7 @@ TEXT_NOTIFY_ADMINS = f'{BOT_NAME} ishga tushdi!'
 
 # ------------ Texts ------------
 WELCOME_TEXT = f'Assalomu alaykum, {{}}. \n<a href="{LINK_TO_CHANNEL}">{BOT_NAME}</a> botiga xush kelibsiz!'
-
+SENDED_TEXT = f"{{}} kanallarga yuborildi!\n"
 # ------------ Menu ------------
 MENU_REF_BUTTON = '💵 UC ishlash'
 MENU_CABINET_BUTTON = '📱 Kabinet'
@@ -25,7 +26,7 @@ MENU_REF_TEXT = f"""
 
 {REF_LINK}
 
-Yuqoridagi taklif havolangizni do'stlaringizga tarqating va har bir to'liq ro'yxatdan o'tgan taklifingiz uchun {PRICE_UC} UC hisobingizga qo'shiladi.
+Yuqoridagi taklif havolangizni do'stlaringizga tarqating va har bir to'liq ro'yxatdan o'tgan taklifingiz uchun {PRICE_UC} UC hisobingizga qo'shiladi. 
 """
 
 MENU_CABINET_TEXT = f"""

@@ -1,2 +1,4 @@
 aiogram~=2.14
 environs~=8.0.0
+peewee~=3.15.4
+asyncpg~=0.27.0

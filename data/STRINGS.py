@@ -13,7 +13,7 @@ REF_LINK = f"""{BOT_LINK}?start={{}}"""
 TEXT_NOTIFY_ADMINS = f'{BOT_NAME} ishga tushdi!'
 
 # ------------ Texts ------------
-WELCOME_TEXT = f'Assalomu alaykum, {{}}. \n<a href="{LINK_TO_CHANNEL}">{BOT_NAME}</a> botiga xush kelibsiz!'
+WELCOME_TEXT = f'Assalomu alaykum, <code>{{}}</code>. \n<a href="{LINK_TO_CHANNEL}">{BOT_NAME}</a> botiga xush kelibsiz!'
 SENDED_TEXT = f"{{}} kanallarga yuborildi!\n"
 # ------------ Menu ------------
 MENU_REF_BUTTON = '💵 UC ishlash'

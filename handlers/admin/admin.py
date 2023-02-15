@@ -21,8 +21,10 @@ async def send_ad(message: types.Message):
         try:
             await msg.copy_to(channel, reply_markup=msg.reply_markup)
             text += SENDED_TEXT.format(channel)
+            # await dp.bot.pin_chat_message(channel, await msg.pin(), True)
         except:
             await msg.copy_to(channel)
+    # await message.reply(msg.message_id)
 
 
 @dp.message_handler(text=['send'], user_id=ADMINS, is_reply=True)

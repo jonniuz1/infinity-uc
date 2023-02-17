@@ -13,6 +13,7 @@ async def on_startup(dispatcher):
     await db.create()
     await db.create_table_users()
     await db.create_table_channels()
+    await db.create_table_price_uc()
 
     # Bot ishga tushgani haqida adminga xabar berish
     await on_startup_notify(dispatcher)

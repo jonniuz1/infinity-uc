@@ -1,9 +1,4 @@
-# ------------ Configs ------------
-ADMINS = [6170357621]
-CHANNEL = [-1001551015352, -1001448625936]
-# BOT_TOKEN="6132848983:AAGh-2YcxbUQM__fl8pSfpUwNdSGa3F223o"
-BOT_LINK = "https://t.me/nimadurbbot"
-BOT_TOKEN = "5929525767:AAEJ8xL4UKm1PnnBONf6A7d7Qe6-QJEvq_8"
+BOT_LINK = "https://t.me/InfinityucBot"
 BOT_NAME = 'Infinity UC'
 LINK_TO_CHANNEL = 'https://t.me/infinityuc'
 

@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  db_auth:
+    container_name: db_auth
+    image: postgres:12-alpine
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_PASSWORD=2001
+      - POSTGRES_USER=admin
+    ports:
+      - "5432:5432"
